@@ -1,0 +1,7 @@
+.business_card {
+  display: flex;
+  flex-direction: column;
+  margin-inline: auto;
+  width: 19.8125rem;
+  height: 48.75rem;
+}
