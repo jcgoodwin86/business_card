@@ -1,0 +1,110 @@
+/* 
+    card-info
+*/
+
+.card-info {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-column-gap: 1px;
+  grid-row-gap: 1px;
+  background: #1a1b21;
+}
+
+.card-headshot {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.card-text {
+  grid-area: 2 / 1 / 3 / 2;
+}
+.card-buttons {
+  grid-area: 3 / 1 / 4 / 2;
+}
+
+.card-text {
+  margin-top: 1.3rem;
+}
+.card-headshot {
+  width: 19.8125rem;
+  height: 19.8125rem;
+  /* background: url(<path-to-image>),
+    lightgray -207.665px -133.577px / 210.625% 315.631% no-repeat; */
+  border-radius: 0.625rem 0.625rem 0rem 0rem;
+}
+
+.card-name {
+  color: #fff;
+  font-size: 1.5625rem;
+  font-weight: 700;
+}
+
+.card-title {
+  display: block;
+  color: #f3bf99;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.card-personal-link {
+  color: #f5f5f5;
+  font-size: 0.64rem;
+  font-weight: 400;
+  line-height: 150%; /* 0.96rem */
+  text-decoration: none;
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-block: 1rem;
+}
+
+.card-email {
+  display: flex;
+  width: 7.1875rem;
+  padding: 0.5625rem 0.8125rem 0.5625rem 0.6875rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 0.375rem;
+  border: 1px solid #d1d5db;
+  background: #fff;
+  color: #374151;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1rem; /* 114.286% */
+  text-decoration: none;
+
+  /* shadow/sm */
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+.email-svg {
+  width: 1rem;
+  height: 1rem;
+}
+
+.card-linkedin {
+  display: flex;
+  width: 7.1875rem;
+  padding: 0.5625rem 0.8125rem 0.5625rem 0.6875rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 0.375rem;
+  background: #5093e2;
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1rem; /* 114.286% */
+  text-decoration: none;
+
+  /* shadow/sm */
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+.linkedin-svg {
+  width: 1rem;
+  height: 1rem;
+}

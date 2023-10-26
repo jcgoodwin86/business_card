@@ -1,0 +1,25 @@
+/* 
+    card about
+*/
+
+.card-about {
+  text-align: start;
+  margin: 1rem 2.25rem;
+}
+
+.about-title {
+  color: #f5f5f5;
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 150%; /* 1.5rem */
+}
+
+.card-about p {
+  color: #dcdcdc;
+  font-family: Inter;
+  font-size: 0.64rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 0.96rem */
+}

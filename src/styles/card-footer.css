@@ -1,0 +1,15 @@
+.card-footer {
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  border-radius: 0rem 0rem 0.625rem 0.625rem;
+  background: #161619;
+}
+
+.card-footer svg {
+  width: 1.5625rem;
+  height: 1.5625rem;
+  fill: #918e9b;
+}
