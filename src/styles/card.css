@@ -1,8 +1,3 @@
-/* * {
-  box-sizing: border-box;
-  outline: 1px solid red;
-} */
-
 @import url(./card-info.css);
 @import url(./card-about.css);
 @import url(./card-interests.css);
